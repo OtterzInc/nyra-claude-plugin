@@ -1,0 +1,6 @@
+{
+  "nyra": {
+    "type": "http",
+    "url": "https://mcp.otterz.co/mcp"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "nyra",
+  "displayName": "Nyra",
+  "version": "0.1.0",
+  "description": "Nyra bookkeeping by Otterz. Connects Claude to your live books — P&L, balance sheet, cash position, and transactions from your general ledger — and lets you send receipts, bills, and statements in for processing, answer your bookkeeper's open questions, and flag anything that looks wrong. Read-only on the ledger: every posting stays in the supervised approval queue.",
+  "author": {
+    "name": "Otterz Inc.",
+    "email": "support@otterz.co",
+    "url": "https://otterz.co"
+  },
+  "homepage": "https://otterz.co",
+  "repository": "https://github.com/OtterzInc/nyra-claude-plugin",
+  "license": "Apache-2.0",
+  "keywords": ["accounting", "bookkeeping", "finance", "erpnext", "month-end-close"]
+}
