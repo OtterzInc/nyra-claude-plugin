@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "otterz",
+  "description": "Claude plugins from Otterz — AI bookkeeping with human supervision.",
+  "owner": {
+    "name": "Otterz Inc.",
+    "email": "support@otterz.co",
+    "url": "https://otterz.co"
+  },
+  "plugins": [
+    {
+      "name": "nyra",
+      "source": "./plugins/nyra",
+      "description": "Nyra bookkeeping by Otterz. Connects Claude to your live books — P&L, balance sheet, cash position, and transactions from your general ledger — and lets you send receipts, bills, and statements in for processing, answer your bookkeeper's open questions, and flag anything that looks wrong. Read-only on the ledger: every posting stays in the supervised approval queue.",
+      "category": "productivity",
+      "author": { "name": "Otterz Inc.", "url": "https://otterz.co" },
+      "homepage": "https://otterz.co",
+      "license": "Apache-2.0",
+      "keywords": ["accounting", "bookkeeping", "finance", "erpnext", "month-end-close"]
+    }
+  ]
+}
